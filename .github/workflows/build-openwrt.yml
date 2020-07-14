@@ -3,7 +3,7 @@
 # Description: Build OpenWrt using GitHub Actions
 # Lisence: MIT
 # Author: P3TERX j
-# Blog: https://p3terx.com 222
+# Blog: https://p3terx.com 
 #=================================================
 
 name: Build OpenWrt
@@ -19,8 +19,8 @@ on:
       - '.config'
 #  schedule:
 #    - cron: 0 8 * * 5
-#  watch:
-#    types: started
+  watch:
+    types: started
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
